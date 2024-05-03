@@ -13,6 +13,7 @@ allocative_derive = { path = "../allocative_derive", version = "=0.3.3" }
 
 ctor = { workspace = true }
 
+arrayvec = { version = "0.7.4", optional = true }
 anyhow = { version = "1.0.65", optional = true }
 bumpalo = { version = "3.11.1", optional = true }
 compact_str = { version = "0.6.1", optional = true }

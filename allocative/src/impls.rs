@@ -10,6 +10,7 @@
 //! Manual implementations of `Allocative` for various types.
 
 mod anyhow;
+mod arrayvec;
 mod bumpalo;
 pub(crate) mod common;
 mod compact_str;
