@@ -70,6 +70,12 @@ impl Allocative for isize {
     }
 }
 
+impl Allocative for char {
+    fn visit<'a, 'b: 'a>(&self, visitor: &'a mut Visitor<'b>) {
+        visitor.visit_simple_sized::<Self>();
+    }
+}
+
 impl Allocative for bool {
     fn visit<'a, 'b: 'a>(&self, visitor: &'a mut Visitor<'b>) {
         visitor.visit_simple_sized::<Self>();
