@@ -35,6 +35,7 @@ sorted_vector_map.optional = true
 # @oss-disable: sorted_vector_map.path = "../../../common/rust/shed/sorted_vector_map"
 sorted_vector_map.version = "0.1"
 specs = { version = "0.20.0", optional = true, default-features = false }
+rayon_specs = { git = "https://github.com/rayonapp/specs", package = "specs", optional = true, default-features = false }
 tokio = { version = "1.5", optional = true, features = ["sync"] }
 triomphe = { version = "0.1.8", optional = true }
 
