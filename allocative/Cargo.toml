@@ -38,6 +38,7 @@ specs = { version = "0.20.0", optional = true, default-features = false }
 rayon_specs = { git = "https://github.com/rayonapp/specs", package = "specs", optional = true, default-features = false }
 tokio = { version = "1.5", optional = true, features = ["sync"] }
 triomphe = { version = "0.1.8", optional = true }
+uuid = { version = "1.17" }
 
 [dev-dependencies]
 inferno = { version = "0.11.11", default-features = false }

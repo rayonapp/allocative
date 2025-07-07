@@ -37,3 +37,4 @@ mod specs;
 mod std;
 mod tokio;
 mod triomphe;
+mod uuid;
